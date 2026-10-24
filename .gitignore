@@ -1,0 +1,5 @@
+# Bỏ qua tất cả các file có đuôi .exe
+*.exe
+
+# Bỏ qua toàn bộ thư mục bin và nội dung bên trong
+bin/
