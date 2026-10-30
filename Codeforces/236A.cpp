@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <set>
 using namespace std;
 
 int main()
@@ -10,14 +11,13 @@ int main()
 
     string a;
     cin >> a;
-    int sum = 0;
-    for (int i = 0; i < a.size(); i++)
-    {
-        sum += a[i];
-    }
-    if (sum % 2 == 0)
+
+    set<char> abc(a.begin(), a.end());
+
+    if (abc.size() % 2 == 0)
         cout << "CHAT WITH HER!";
     else
         cout << "IGNORE HIM!";
+
     return 0;
 }
