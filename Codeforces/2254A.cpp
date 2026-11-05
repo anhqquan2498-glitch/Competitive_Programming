@@ -1,4 +1,3 @@
-//2254A
 
 #include <iostream>
 #include <algorithm>

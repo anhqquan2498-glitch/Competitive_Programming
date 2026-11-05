@@ -1,4 +1,3 @@
-// 2276A
 
 #include <bits/stdc++.h>
 

@@ -1,4 +1,4 @@
-// 2275B
+
 #include <iostream>
 #include <vector>
 #include <stack>

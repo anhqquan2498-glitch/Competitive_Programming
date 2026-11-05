@@ -1,7 +1,7 @@
-// 2275A
+
 
 #include <iostream>
-#include <algorithm>
+
 using namespace std;
 
 void distance()
